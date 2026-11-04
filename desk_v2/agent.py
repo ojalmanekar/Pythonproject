@@ -22,7 +22,7 @@
 # (none: agent.py must stand alone)
 
 # --- 2. global constants ------------------------------------------------------------------
-GROUP_CODE = "GXX-XXXX"       # <- replace with your group's code from the code email
+GROUP_CODE = "G19-CKWQ"       # <- replace with your group's code from the code email
 # Group: <every member's full name, separated by commas>
 # Reference: <the full name of this file's reference member>
 

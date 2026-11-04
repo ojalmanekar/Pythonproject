@@ -5,8 +5,8 @@
 #
 # Two parts, kept apart on purpose (week 7, and the split agent_unittest.py talks about):
 #   - class Desk: the ENGINE. It owns the session (the market, the day, an Account, the
-#     last run) and every method RETURNS a message instead of printing it, so the same
-#     engine can sit behind this text menu or behind desk_gui.py's buttons (week 8);
+#     last run) and every method RETURNS a message instead of printing it: the deciding
+#     and the printing are separate jobs (week 7), so each method can be tested alone;
 #   - main(): the FACE. The cafe's menu loop (week 3): print the menu, read a choice, hand
 #     the work to one method, print the answer and the status line, loop until 0.
 #
@@ -209,7 +209,7 @@ class Desk:
         self.account = account.Account(saved["cash"], saved["shares"])
         self.manual_trades = []
         self.last_result = None
-        self.last_event = "loaded the saved session"
+        se1lf.last_event = "loaded the saved session"
         return f"Loaded session: {market.ticker} day {self.day}.\n" + self.leaderboard_text()
 
     def leaderboard_text(self):

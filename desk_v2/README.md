@@ -7,7 +7,6 @@ python3 desk.py 5000 10    optional: start with cash 5000 and 10 shares
 python3 check_project.py   our plain-assert checks (week 5 style)
 python3 agent_unittest.py  the course's protocol check (needs your GROUP_CODE in agent.py)
 python3 selfcheck.py       the course's full check: its three "ran end-to-end" lines go in the report
-python3 desk_gui.py        OPTIONAL week-8 window on the same engine (needs tkinter)
 ```
 Run them from THIS folder (in PyCharm: right-click desk.py, Run 'desk'), with the nine
 data files in `data/training/` beside the code.
@@ -25,7 +24,6 @@ data files in `data/training/` beside the code.
 | `storage.py` | session.txt, results.txt, leaderboard.txt | week 2 "w"/"a", week 5 try/except, supplement leaderboard recipe |
 | `benchmarks.py` | BaseAgent, HoldAgent, BuyAndHoldAgent | week 7 inheritance + abstraction (`raise NotImplementedError`) |
 | `check_project.py` | 14 assert checks | week 5 check_discount.py, week 7 check_refactor.py |
-| `desk_gui.py` | Optional tkinter window | week 8 cafe_w8.py |
 
-Submit the 11 `.py` files above (the GUI is optional). Do not submit the data,
+Submit the 10 `.py` files above. The program runs in the terminal only. Do not submit the data,
 `agent_unittest.py`, `selfcheck.py`, or the generated `.txt` and `.png` files.

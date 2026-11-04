@@ -1,0 +1,2 @@
+HoldAgent on NOVA (price only),10000.00,0
+BuyAndHoldAgent on NOVA (price + news),10571.16,1
