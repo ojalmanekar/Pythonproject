@@ -1,6 +1,0 @@
-ticker=QBIT
-day=0
-cash=8881.5606
-shares=41.0
-start_cash=9999.0
-start_shares=30.0
