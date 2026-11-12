@@ -1,0 +1,5 @@
+BuyAndHoldAgent on QBIT (price only),10566.60,0
+BuyAndHolgAgent on VOLT (price only),10000.00,0
+BuyAndHolgAgent on VOLT (price only),10000.00,0
+BuyAndHolgAgent on VOLT (price only),82299.50,0
+BuyAndHolgAgent on NOVA (price only),10000.00,0

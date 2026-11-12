@@ -1,0 +1,6 @@
+ticker=NOVA
+day=1
+cash=10000.0
+shares=0.0
+start_cash=10000.0
+start_shares=0.0
